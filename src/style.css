@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0,
+}
+
+.container{
+	margin: 0 40px 0 40px;
+}
+.banner{
+	
+	background: #ff4500;
+	height: 400px;
+	width: 1190px;
+}
+header {
+	display: block;
+	margin: 0 40px 0 40px;
+}
+
+header nav {
+	background: lightgray;
+    padding: 10px;
+}
+
+header nav h1 {
+	display: inline-block;
+}
+
+header nav h1 span {
+	color: red;
+}
+
+header nav ul {
+	display: block;
+	float: right;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding:5px;
+}
+header nav ul li a {
+	text-decoration: none;
+	color: black;
+
+}
+
+main{
+	padding: 0 10px 0 10px;
+}
+
+.row{
+	padding: 50px;
+
+}
+.col-4{
+	width: calc(33.3333% - 4px);
+	display: inline-block;
+	text-align: center;
+
+}
+.iconcolors{
+	color:#ff4500;
+}
+
+.about{
+	background-image: url(./assets/image/about.jpg);
+	width: 1188px;
+	height: 400px;
+	background-size: cover;
+}
+.service{
+	background-image: url(./assets/image/services.png);
+	width: 1188px;
+	height: 400px;
+	background-size: cover;
+    background-position: bottom;
+
+}
+.contact{
+	background-image: url(./assets/image/contactus.jpg);
+	width: 1188px;
+	height: 400px;
+	background-size: cover;
+    background-position: bottom;
+}
+.contact h1{
+	color: white;
+	padding: 140px 165px;
+	font-size: 51px;
+	margin: 0;
+}
+
+.about h1{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 100 !important;
+    text-transform: capitalize;
+    font-size: 65px;
+	margin-bottom: 20px;
+	color: white;
+	margin: 0;
+	text-align: center;
+	padding-top: 170px;
+}
+.aboutDriver{
+	text-align: center;
+	font-family: 'proxima-nova', sans-serif;
+	font-size: 25px;
+    font-weight: 700;
+	margin: 14px 0;
+	color: #333;
+	
+}
+
+.aboutDriver h2{
+	margin-bottom: 2px;
+padding-top: 50px;
+}
+.aboutDriver h3{
+	margin:10px 0;
+	
+
+}
+
+.aboutDriver p{
+	margin-top: 40px;
+	font-weight: 300;
+	font-size: 22px;
+	padding: 0 240px;
+	margin-bottom: 75px;
+}
+.description{
+	color: gray;
+}
+
+.red-border {
+    width: 50%;
+    border-bottom: 1px solid #d2282e;
+    margin: 0 auto;
+    height: 16px;
+}
+
+.notPage{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+footer {
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding: 20px;
+
+}
+

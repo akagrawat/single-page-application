@@ -1,8 +1,9 @@
 let Bottembar = {
   render: async () => {
       let view =  /*html*/`
-          <h1> Hello Ashish</h1>
-          <h2> Footer working</h2>
+      <footer>
+      Copyright, All right reseved
+    </footer>
       `
       return view
   },

@@ -1,8 +1,11 @@
 let Error404 = {
   render: async () => {
       let view =  /*html*/`
-          <h1> Hello Ashish</h1>
-          <h2> Error 404 working</h2>
+          <div class="container">
+          <div class="notPage">
+          <img src="./assets/image/4041.jpg" width="1188" height="500">
+          </div>
+          </div>
       `
       return view
   },

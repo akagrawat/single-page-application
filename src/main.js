@@ -3,6 +3,7 @@
 import Navbar from './views/Header.js';
 import Home  from './views/Home.js';
 import About  from './views/About.js';
+import Service  from './views/Service.js';
 import Contactus  from './views/Contactus.js';
 import Error404  from './views/Error404.js';
 import Bottembar  from './views/Footer.js';
@@ -13,6 +14,7 @@ const routes = {
   '#/' : Home,
   '#/about' : About,
   '#/contactus': Contactus,
+  '#/service': Service,
   '#/404': Error404
 };
 

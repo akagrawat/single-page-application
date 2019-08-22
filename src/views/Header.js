@@ -1,25 +1,18 @@
 let Navbar = {
   render: async () => {
       let view =  /*html*/`
-           <nav class="navbar" >
-              <div class="container">
-                  
-                  <div>
-                      <div class="navbar-start">
-                          <a class="navbar-item" href="/#/">
-                              Home
-                          </a>
-                          <a class="navbar-item" href="/#/about">
-                              About
-                          </a>
-                          <a class="navbar-item" href="/#/contactus">
-                              Contactus
-                          </a>
-                      </div>
-                      
-                  </div>
-              </div>
-          </nav>
+           <header>
+				<nav>
+				<h1><span>D</span>iwi</h1>
+					<ul>
+						<li><a href="/#/"> Home </a></li>
+						<li><a href="/#/service">Services</a></li>
+						<li><a href="/#/about">About us</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="/#/contactus">Contact us</a></li>
+					</ul>
+				</nav>
+			</header> <!-- end header -->
       `
       return view
   },
