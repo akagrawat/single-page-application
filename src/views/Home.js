@@ -4,8 +4,10 @@ let Home = {
 
       let view =  /*html*/`
       <div class="container">
-      <div>
-      <img class="banner" src="./assets/image/banner.jpg">
+      <div class="slider">
+      <ul class="slides">
+      <li class="slide"><img class="banner" src="./assets/image/banner.jpg" alt=""></li>
+      </ul>
       </div>    
       <div class="row">
       <div class="col-4 services">

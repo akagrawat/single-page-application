@@ -15,7 +15,7 @@ const routes = {
   '#/about' : About,
   '#/contactus': Contactus,
   '#/service': Service,
-  '#/404': Error404
+  '#/404': Home
 };
 
 // Here '#/about' is used to restrict server request
@@ -46,3 +46,20 @@ const router = async () => {
 
 window.addEventListener('hashchange', router); 
 window.addEventListener('load', router);
+
+
+var x = ["./assets/image/banner.jpg",
+         "./assets/image/bannerx.jpg"];
+
+/*$("document").ready(function(){
+  $(".banner").mouseenter(function(){
+    for(var i=0 ;i< x.length ; i++)
+    {
+    $(".banner").attr("src",x[i]);
+    }
+  })
+})*/
+
+var currentSlide = 1;
+var slideCount = $("ul").children("li").length;
+console.log(slideCount);
